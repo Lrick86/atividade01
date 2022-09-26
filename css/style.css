@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.imagemtopo {
+  width: 100%;
+  height: 140%;
+	min-height: 150px;
+  background-image: url(https://abii.com.br/wp-content/uploads/2022/02/tendencias-de-tecnologia-1024x683.jpg);
+	background-size: cover;
+  background-position: center;
+	display: flex;
+	flex-direction: column;
+	position: relative
+}
+
+h1 {
+  text-align: center;
+  margin-top: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(47, 0, 255);
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+
+section {
+  padding: 0px;
+}
+
+.h2-title {
+  color: black;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 1500;
+  text-align: center;
+  padding: 100;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.25em;
+  letter-spacing: 0.02em;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.p-text {
+  font-family: 'Inter', sans-serif;
+  color: rgb(39, 39, 39);
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 0;
+  margin-right: 150px;
+  margin-bottom: 15px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  bottom: 25px;
+  margin-left: 25px;
+}
+
+.h2-title {
+  margin: 7px;
+}
+
+.p-text {
+  margin: 50px;
+  text-align: justify;
+  margin-right: 30%;
+  font-style: italic;
+}
+
+.p-text2 {
+  margin: 50px;
+  text-align: justify;
+  margin-right: 30%;
+  font-style: italic;
+}
+
+.p-text3 {
+  margin: 50px;
+  text-align: justify;
+  margin-right: 30%;
+  font-style: italic;
+}
+
+.imghobbies {
+  margin: 0;
+  width: 500px;
+  height: 408px;
+  display: block;
+  margin-top: 5px;
+  object-fit: contain;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(47, 0, 255);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer h2 {
+  color: white;
+}
+
+.r-text {
+  font-family: 'Inter', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0;
+  margin-right: 150px;
+  margin-bottom: 15px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
